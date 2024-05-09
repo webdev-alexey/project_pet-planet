@@ -41,7 +41,11 @@
         </h1>
         <div class="container">
           <h2 class="hero__title visually-hidden">Товары для твоих любимцев</h2>
-          <img src="./img/title.svg" alt="Товары для твоих любимцев" />
+          <img
+            class="hero__title"
+            src="./img/title.svg"
+            alt="Товары для твоих любимцев"
+          />
 
           <p class="hero__text">
             Большой выбор домиков, лежанок и кормов для кошек и собак
@@ -72,35 +76,42 @@
       </section>
 
       <section class="advantages">
-        <div class="container">
-          <h2 class="advantages__title">Наши преимущества</h2>
+        <div class="advantages__bg">
+          <div class="container">
+            <h2 class="advantages__title">Наши преимущества</h2>
 
-          <ul class="advantages__list">
-            <li class="advantages__item">
-              <h3 class="advantages__subtitle">Широкий ассортимент</h3>
-              <p class="advantages__text">
-                У&nbsp;нас есть все для того, чтобы сделать жизнь вашего любимца
-                комфортной и&nbsp;уютной.
-              </p>
-            </li>
+            <ul class="advantages__list">
+              <li class="advantages__item advantages__item_assortment">
+                <h3 class="advantages__subtitle">Широкий ассортимент</h3>
+                <p class="advantages__text">
+                  У&nbsp;нас есть все для того, чтобы сделать жизнь вашего
+                  любимца комфортной и&nbsp;уютной.
+                </p>
+              </li>
 
-            <li class="advantages__item">
-              <h3 class="advantages__subtitle">Качество и безопасность</h3>
-              <p class="advantages__text">
-                Мы&nbsp;тщательно отбираем товары для наших клиентов, уделяя
-                особое внимание качеству и&nbsp;безопасности.
-              </p>
-            </li>
+              <li class="advantages__item advantages__item_quality">
+                <h3 class="advantages__subtitle">Качество и безопасность</h3>
+                <p class="advantages__text">
+                  Мы&nbsp;тщательно отбираем товары для наших клиентов, уделяя
+                  особое внимание качеству и&nbsp;безопасности.
+                </p>
+              </li>
 
-            <li class="advantages__item">
-              <h3 class="advantages__subtitle">Персональный подход</h3>
-              <p class="advantages__text">
-                Мы&nbsp;понимаем, что каждый питомец уникален, поэтому
-                предлагаем вам индивидуальные рекомендации по&nbsp;выбору
-                товаров.
-              </p>
-            </li>
-          </ul>
+              <li class="advantages__item advantages__item_personal">
+                <h3 class="advantages__subtitle">Персональный подход</h3>
+                <p class="advantages__text">
+                  Мы&nbsp;понимаем, что каждый питомец уникален, поэтому
+                  предлагаем вам индивидуальные рекомендации по&nbsp;выбору
+                  товаров.
+                </p>
+              </li>
+            </ul>
+          </div>
+
+          <div class="advantages__count-box">
+            <p class="advantages__count">10</p>
+            <p class="advantages__count-text">магазинов в сети</p>
+          </div>
         </div>
       </section>
 
@@ -126,7 +137,7 @@
     </main>
 
     <footer class="footer">
-      <div class="container">
+      <div class="container footer__container">
         <img
           class="footer__logo"
           src="./img/logo.svg"
@@ -165,7 +176,7 @@
             Petplanet@gmail.com
           </a>
 
-          <ul class="footer__list">
+          <ul class="footer__social-list">
             <li class="footer__item">
               <a
                 class="footer__link"
