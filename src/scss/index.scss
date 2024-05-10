@@ -1,9 +1,9 @@
-@use "default" as *;
-@use "modules/header" as *;
-@use "modules/hero" as *;
-@use "modules/about" as *;
-@use "modules/advantages" as *;
-@use "modules/subscribe" as *;
-@use "modules/footer" as *;
+@use "default";
+@use "modules/header";
+@use "modules/hero";
+@use "modules/about";
+@use "modules/advantages";
+@use "modules/subscribe";
+@use "modules/footer";
 
 @import "normalize.css";
